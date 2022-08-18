@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Form | The Odin Project</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/caab8a0db0.js" crossorigin="anonymous"></script>
+    <!-- Script -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="left__background-overlay">
+                <div class="title">
+                    <h1>Kokoro</h1>
+                </div>
+                <a href="https://github.com/jordantate/odin-sign-up-form" class="hero-link" target="_blank">
+                    <button type="button" id="explore-btn">Explore</button>
+                </a>  
+            </div>
+        </div>
+        <div class="right">
+            <div class="header">
+                <h2>Heart Body & Soul</h2>
+                <p><em>Outside is form. Inside is thought. Deepest is the soul.</em></p>
+                <p>Nourish the mind, body, and soul through the all-natural
+                   <strong><em>camellia sinensis</em></strong>. The plant of the green tea leaf. Balance your health and wellness with one of the oldest forms of healing.</p>
+                <p>Sign up to our Newsletter today to find out more!</p>
+                <p>This is not a real online service.</p>
+            </div>
+            <div class="sign-up">
+                <form action="">
+                    <legend>Contact Details</legend>
+                    <div class="row">
+                        <div class="col">
+                            <label for="first-name">First Name</label>
+                            <input type="text" name="first-name" id="first-name" minlength="2" maxlength="20" required>
+                        </div>
+                        <div class="col">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" name="last-name" id="last-name" minlength="2" maxlength="20" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label for="email">Email Address</label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                        <div class="col">
+                            <label for="phone-number">Phone Number</label>
+                            <input type="tel" name="phone-number" id="phone-number" minlength="11" maxlength="11" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password" minlength="4" maxlength="16" required>
+                        </div>
+                        <div class="col">
+                            <label for="password-confirm">Confirm Password</label>
+                            <input type="password" name="password-confirm" id="password-confirm" minlength="4" maxlength="16" required>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="footer">
+                <button type="submit" id="sign-up-btn">Sign Up</button>
+                <p>Have an account with us? <a href="">Log In</a></p>
+                <div class="copyright">
+                    <p>Copyright © 2022 Jordan Tate</p>
+                    <a href="https://github.com/JordanTate/">
+                        <i class="fa-brands fa-github fa-2x"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
