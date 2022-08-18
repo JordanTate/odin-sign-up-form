@@ -101,7 +101,7 @@ h2, p, legend, label{
     width: 180px;
     height: 50px;
     color: #414833;
-    background-color: var(--background-secondary);
+    background-color: #DDE5B6;
     border-radius: 1rem;
 }
 /* Right */
@@ -137,6 +137,7 @@ h2, p, legend, label{
     font-size: .85rem;
 }
 .header p:nth-child(3){
+    padding: 1rem 0;
     font-size: 1rem;
     max-width: 680px;
 }
@@ -266,6 +267,14 @@ input:valid{
     .right{
         height: auto;
         grid-template-rows: 1fr 1fr .5fr;
+    }
+    .header h2{
+        margin-bottom: -40px;
+    }
+    .header p:nth-child(3){
+        border-width: 1px;
+        border-style: solid;
+        border-image: linear-gradient(to right, rgba(255, 255, 255, 0), var(--text-primary), rgba(255, 255, 255, 0)) 1 1%;
     }
     .row{
         flex-direction: column;
